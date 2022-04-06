@@ -30,24 +30,26 @@ _MongoDB 是一個開源的「NoSQL ( 非關聯性 ) 文件資料庫」，相較
 使用 Node.js 開源、跨平台和允許開發者使用Javascript創造伺服器端工具和應用的執行環境。
 ![MVC 架構](https://github.com/Mars621/Mask/blob/main/flow.jpg)
 1. 安裝API套件`express` `http-errors` `mongoose` `pug` `luxon` `jade` `async` 
-2. Local Library安裝 
+> npm install 
+3. Local Library安裝 
     _透過`npm install mongoose`指令，在node.js環境下設置資料庫，並且設置`expree`的前端顯示。_
 ![Local Library](https://github.com/Mars621/Mask/blob/main/Local%20Library.png)
 3. 後端架設伺服器與連接
-3.1.後端JS code
+- [x] 後端JS code
 ![Librart](https://github.com/Mars621/Mask/blob/main/Local%20code.png)
-3.2.連接成功
+
+- [x] 連接成功
 ![conncet](https://github.com/Mars621/Mask/blob/main/Local%20terimel.jpg)
-3.3.Model
+- [x] Model
 ![Model code](https://github.com/Mars621/Mask/blob/main/model.png))
-3.4.Controller
+- [x] Controller
 ![Controller code](https://github.com/Mars621/Mask/blob/main/Controller%20code.png)
-3.3.測試網頁顯示(view)
+- [x] 測試網頁顯示(view)
 ![web conncet](https://github.com/Mars621/Mask/blob/main/messageImage_1649258992531.jpg)
 4.  The Task Requirments
-4.1List all pharmacies that are open at a certain time, and on a day of the week if requested
+- [x]List all pharmacies that are open at a certain time, and on a day of the week if requested
 ![t1](https://github.com/Mars621/Mask/blob/main/t1.jpg)
-4.2List all masks that are sold by a given pharmacy, sorted by mask name or mask price
+- [x] List all masks that are sold by a given pharmacy, sorted by mask name or mask price
 ![t2](https://github.com/Mars621/Mask/blob/main/t2.jpg)
 
 
