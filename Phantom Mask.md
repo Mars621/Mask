@@ -36,20 +36,31 @@ _MongoDB 是一個開源的「NoSQL ( 非關聯性 ) 文件資料庫」，相較
 ![Local Library](https://github.com/Mars621/Mask/blob/main/Local%20Library.png)
 3. 後端架設伺服器與連接
 - [x] 後端JS code
+
 ![Librart](https://github.com/Mars621/Mask/blob/main/Local%20code.png)
 
 - [x] 連接成功
+
 ![conncet](https://github.com/Mars621/Mask/blob/main/Local%20terimel.jpg)
+
 - [x] Model
+
 ![Model code](https://github.com/Mars621/Mask/blob/main/model.png))
+
 - [x] Controller
+
 ![Controller code](https://github.com/Mars621/Mask/blob/main/Controller%20code.png)
+
 - [x] 測試網頁顯示(view)
+
 ![web conncet](https://github.com/Mars621/Mask/blob/main/messageImage_1649258992531.jpg)
 4.  The Task Requirments
-- [x]List all pharmacies that are open at a certain time, and on a day of the week if requested
+- [x] List all pharmacies that are open at a certain time, and on a day of the week if requested
+
 ![t1](https://github.com/Mars621/Mask/blob/main/t1.jpg)
+
 - [x] List all masks that are sold by a given pharmacy, sorted by mask name or mask price
+
 ![t2](https://github.com/Mars621/Mask/blob/main/t2.jpg)
 
 
