@@ -5,7 +5,7 @@ _所使用到的平台構建後端服務和數據庫如下_
 ## MVC架構
 
 _Model、View、Controller 的區分，是希望能把應用程式的內部運作歸納成不同的部門，讓每個部門各自負責不同的關注點。主要目的是用來「簡化應用程式的開發與增強程式」的可維護性。_
-|![MVC](https://github.com/Mars621/Mask/blob/main/MVC.png)|
+![MVC](https://github.com/Mars621/Mask/blob/main/MVC.png)
 ### Model
 _Model 常譯為「模型」，負責和資料庫溝通。在應用程式裡想要做「新增/瀏覽/修改/刪除」的動作，就需要先有 Model 層幫忙去資料庫裡取出必要的資料，把資料放進應用程式裡的某個程式物件，然後才能用 JavaScript 去操作該物件。_
 ### View
@@ -28,8 +28,30 @@ _MongoDB 是一個開源的「NoSQL ( 非關聯性 ) 文件資料庫」，相較
 
 ## 實作
 使用 Node.js 開源、跨平台和允許開發者使用Javascript創造伺服器端工具和應用的執行環境。
-|![MVC](https://github.com/Mars621/Mask/blob/main/flow.jpg)|
-   
+![MVC 架構](https://github.com/Mars621/Mask/blob/main/flow.jpg)
+1. 安裝API套件`express` `http-errors` `mongoose` `pug` `luxon` `jade` `async` 
+2. Local Library安裝 
+    _透過`npm install mongoose`指令，在node.js環境下設置資料庫，並且設置`expree`的前端顯示。_
+![Local Library](https://github.com/Mars621/Mask/blob/main/Local%20Library.png)
+3. 後端架設伺服器與連接
+3.1.後端JS code
+![Librart](https://github.com/Mars621/Mask/blob/main/Local%20code.png)
+3.2.連接成功
+![conncet](https://github.com/Mars621/Mask/blob/main/Local%20terimel.jpg)
+3.3.Model
+![Model code](https://github.com/Mars621/Mask/blob/main/model.png))
+3.4.Controller
+![Controller code](https://github.com/Mars621/Mask/blob/main/Controller%20code.png)
+3.3.測試網頁顯示(view)
+![web conncet](https://github.com/Mars621/Mask/blob/main/messageImage_1649258992531.jpg)
+4.  The Task Requirments
+4.1List all pharmacies that are open at a certain time, and on a day of the week if requested
+![t1](https://github.com/Mars621/Mask/blob/main/t1.jpg)
+4.2List all masks that are sold by a given pharmacy, sorted by mask name or mask price
+![t2](https://github.com/Mars621/Mask/blob/main/t2.jpg)
+
+
+
 
 
 
