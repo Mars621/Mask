@@ -32,7 +32,7 @@ _MongoDB 是一個開源的「NoSQL ( 非關聯性 ) 文件資料庫」，相較
 1. 安裝API套件`express` `http-errors` `mongoose` `pug` `luxon` `jade` `async` 
 > npm install 
 3. Local Library安裝 
-    _透過`npm install mongoose`指令，在node.js環境下設置資料庫，並且設置`expree`的前端顯示。_
+    _透過`npm install mongoose`指令，在node.js環境下設置資料庫，並且設置`Mongo Express`的前端顯示。_
 ![Local Library](https://github.com/Mars621/Mask/blob/main/Local%20Library.png)
 3. 後端架設伺服器與連接
 - [x] 後端JS code
